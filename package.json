@@ -1,0 +1,19 @@
+{
+  "name": "cat-facts-cli",
+  "version": "1.0.0",
+  "description": "A colorful CLI that displays random cat facts with ASCII cat art",
+  "type": "module",
+  "bin": {
+    "cat-facts": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test test.js"
+  },
+  "keywords": ["cat", "facts", "cli", "ascii-art"],
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "figlet": "^1.10.0"
+  }
+}
